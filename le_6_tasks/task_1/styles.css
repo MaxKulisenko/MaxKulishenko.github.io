@@ -1,0 +1,9 @@
+div{
+    height:200px;
+    width: 200px;
+    border-top:5px solid violet;
+    border-bottom:5px solid violet;
+    border-left:3px dashed greenyellow;
+    border-right:7px double yellow;
+
+}

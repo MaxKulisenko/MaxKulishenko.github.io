@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    }
+    
+    div{
+    margin:100px auto;
+    width:200px;
+    height:200px;
+    background:blue;
+    border:50px solid red;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px white;
+    position:relative;
+    }
+    
+    div:before{
+    content:'';
+    position:absolute;
+    left:1px;
+    right:1px;
+    top:1px;
+    bottom:1px;
+    border-radius: 50%;
+    border:50px solid #fff; 
+    }
