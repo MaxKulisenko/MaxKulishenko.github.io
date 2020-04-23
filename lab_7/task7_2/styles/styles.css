@@ -1,0 +1,208 @@
+
+
+
+* {
+    padding: 0;
+  }
+   
+  body {
+    font: 16px 'Roboto';
+  }
+   
+  .conteiner {
+    width: 620px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+   
+  .header {
+    padding: 20px 0;
+  }
+   
+  .header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+  }
+   
+  .photo,
+  .author {
+    display: inline-block;
+  }
+   
+  .author {
+    margin-left: 15px;
+    vertical-align: top;
+  }
+   
+  .info_box span {
+    color: #95a5a6
+  }
+   
+   
+
+   
+  h3 {
+    text-align: center;
+    color: #2c3e50;
+  }
+   
+   
+
+   
+  hr {
+    border: none;
+    color: #eee;
+    background-color: #eee;
+    height: 1px;
+  }
+   
+   
+
+   
+  p {
+    text-align: left;
+    color: #34495e;
+  }
+   
+  a {
+    text-decoration: none;
+    color: #3498db;
+  }
+   
+  li {
+    margin: 10px 0;
+    list-style-type: none;
+  }
+   
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+   
+  .contacts {
+    text-align: right;
+  }
+
+   
+   
+   header{
+    margin-top: 220;
+    font-family: Cuprum, Arial, Helvetica, sans-serif;
+   }
+   .dws-menu *{
+    margin-top: 220;
+    padding: 0;
+    position:sticky;
+   }
+   .dws-menu ul,
+   .dws-menu ol{
+    list-style: none;
+   }
+   .dws-menu > ul{
+    display: flex;
+    justify-content: center;
+   }
+   .dws-menu > ul li{
+    position: relative;
+    border-right: 1px solid #c7c8ca;
+   }
+   
+   
+   .dws-menu > ul li:first-child{
+    border-left: 1px solid #b2b3b5;
+   }
+   .dws-menu > ul li:last-child{
+    border-right: 1px solid #babbbd;
+   }
+   .dws-menu > ul li > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+   }
+   .dws-menu > ul li a{
+    display: block;
+    background: rgb(201,201,201); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(201,201,201,1) 0%, rgba(246,246,246,1) 2%, rgba(196,197,199,1) 98%, rgba(117,117,119,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(201,201,201,1) 0%,rgba(246,246,246,1) 2%,rgba(196,197,199,1) 98%,rgba(117,117,119,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#757577',GradientType=0 ); /* IE6-9 */
+   
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+   }
+   .dws-menu li a:hover{
+  
+    background: rgb(224,225,229); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(224,225,229,1) 0%, rgba(69,69,71,1) 2%, rgba(69,69,71,1) 98%, rgba(224,225,229,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(224,225,229,1) 0%,rgba(69,69,71,1) 2%,rgba(69,69,71,1) 98%,rgba(224,225,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e1e5', endColorstr='#e0e1e5',GradientType=0 ); /* IE6-9 */
+   
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+   }
+   
+
+   .dws-menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+   }
+   .dws-menu li > ul li{
+    border: 1px solid #c7c8ca;
+   }
+   .dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+   }
+   .dws-menu li > ul li ul{
+    position: absolute;
+    right: -150px;
+    top: 0;
+   }
+   .dws-menu li:hover > ul{
+    display: block;
+   }
+   
+   .social{
+    position: fixed;
+    top: 200px;
+    left: 0;
+    z-index: 1000;
+   }
+   .dws-button{
+    background-color: #3b5998;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    transition: all 0.5s;
+   }
+   a{
+    color: #ffffff;
+    text-decoration: none;
+   }
+   a i.fa{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+   }
+   .dws-share{
+    float: left;
+    width: 40px;
+   }
+   .dws-text{
+    float: right;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    right: 5px;
+   }
