@@ -1,0 +1,25 @@
+a {
+    background-image: url(css_sprites.png);
+    background-repeat: no-repeat;
+    width: 225px; height: 225px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  a.viber {
+    background-position: -10px -10px;
+  }
+  a.instagram {
+    background-position: -330px -10px;
+  }
+  a.telegram {
+    background-position: -575px -10px;
+  }
+  a.facebook {
+    background-position: -10px -330px;
+  }
+  a.youtube {
+    background-position: -255px -330px;
+  }
+  a.twiter {
+    background-position: -10px -575px;
+  }
